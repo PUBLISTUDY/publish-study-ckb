@@ -1,38 +1,250 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+
+    font-family: Montserrat, serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+:root {
+    --bs-nav-bg:#12416B;
+    --bs-nav-color: #FFF;
+    --bs-nav-hover: #F7941D;
+
+    --bs-nav-margin:12px;
+    --bs-nav-height:59px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bs-nav-bg);
+    height: var(--bs-nav-height);
+    padding: 0 194px 0 194px;
+    color : var(--bs-nav-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.amazon_logo {
+    margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.main__logo {
+    margin: 0 var(--bs-nav-margin) 0 var(--bs-nav-margin);
+    cursor:pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main__logo:hover {
+    color: var(--bs-nav-hover);
 }
+
+.main__logo__btn {
+    line-height: 24px;
+    text-align: center;
+    border-radius: 91px;
+    background: #F7941D;
+    width: 100px;
+    height: 24px;
+    flex-shrink: 0;
+    color: var(--bs-nav-bg);
+    cursor:pointer;
+    margin-left: var(--bs-nav-margin);
+}
+
+.main__logo__toggle {
+    margin-left: 4px;
+}
+
+/*---*/
+.main__banner {
+    background: #CEE3F4;
+    height: 243px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__text {
+    color: #F7941D;
+    font-family: Montserrat, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    min-width: 600px;
+
+}
+.main__image {
+    align-self: flex-end;
+}
+
+.card__area__inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card__img {
+    max-width: 100%;
+}
+
+.card__area {
+    justify-content: center;
+    flex-wrap: wrap; /* 아이템이 한 줄에 다 차면 다음 줄로 넘어감 */
+    background-color: #F2F2F2;
+    padding: 58px 50px 58px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card__component {
+    margin: 12px;
+    width: 300px;
+    min-width: 300px;
+    height: 357px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 17px;
+    border-radius: 10px;
+    border: 1px solid #CEE3F4;
+    background: #FFF;
+    box-shadow: 0 4px 14px -1px rgba(0, 0, 0, 0.15);
+}
+
+.card__header {
+    color: #12416B;
+    font-family: Montserrat, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 270px;
+    height: 53px;
+}
+
+.card__body {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 268px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.card__footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__footer__front {
+    color: #707070;
+    font-family: Montserrat;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+}
+
+
+.component_btn {
+    padding: 2px 4px 3px 6px;
+    border-radius: 19px;
+    background: #E2E2E2;width: 71px;
+    flex-shrink: 0;
+    color: #575757;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer {
+    background: #12416B;
+    width: 100%;
+    height: 387px;
+    flex-shrink: 0;
+}
+
+.footer__inner {
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__body {
+    color: #FFF;
+    font-family: Montserrat, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 247px;
+    height: 243px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.footer__header {
+    color: #F5911E;
+    font-family: Montserrat, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.footer__components {
+    margin: 12px;
+}
+
+.footer__second_btn {
+    margin: 8px;
+    color: #12416B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 6px 25px 6px 25px;
+    border-radius: 28px;
+    background: #FFF;
+    flex-shrink: 0;
+
+}
+@media (max-width: 1030px) {
+    .main__logo {
+        display: none;
+    }
+
+    .main__nav {
+        justify-content: space-between;
+    }
+
+
+    .card__component {
+        min-width: 300px;
+    }
+
+    .main__image {
+        display: none;
+    }
+
+}
+
