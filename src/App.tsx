@@ -4,8 +4,8 @@ const App = () => {
     return <div>
         <div className={'main__nav'}>
             <img className={'amazon_logo'} src={'images/amazon_log.png'} alt={"amazon_logo"} height={22} width={140}/>
-            <div className="main__logo">MĐT Xuyên Biên Giới và Bán Hàng Trên Amazon <img
-                className={'main__logo__toggle'} src={'images/nav-toggle_down.svg'} alt={'toggle'}/></div>
+            <div className="main__logo">TMĐT Xuyên Biên Giới và Bán Hàng Trên Amazon
+                <img className={'main__logo__toggle'} src={'images/nav-toggle_down.svg'} alt={'toggle'}/></div>
             <div className="main__logo">Bắt đầu bán hàng<img className={'main__logo__toggle'}
                                                              src={'images/nav-toggle_down.svg'} alt={'toggle'}/></div>
             <div className="main__logo">Phát triển kinh doanh<img className={'main__logo__toggle'}
@@ -27,6 +27,246 @@ const App = () => {
             </div>
 
             <div className={'card__area'}>
+                <div className={'card__component'}>
+                    <div><img src={'images/card.png'} className={'card__img'}/></div>
+                    <div>
+                        <div className={'card__header'}>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </div>
+                        <div className={'card__body'}>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature
+                        </div>
+                    </div>
+                    <div className={'card__footer'}>
+                        <div className={'card__footer__front'}>
+                            <div>Sep 26, 2021</div>
+                            <div style={{margin: '0px 8px 0px 15px', alignItems: 'center'}}><img
+                                src={'/images/dot.svg'}/></div>
+                            <div>1:41 PM</div>
+                        </div>
+                        <div className={'component_btn'}>Xem thêm <img src={'/images/right-arrow.svg'}/></div>
+                    </div>
+                </div>
+                <div className={'card__component'}>
+                    <div><img src={'images/card.png'} className={'card__img'}/></div>
+                    <div>
+                        <div className={'card__header'}>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </div>
+                        <div className={'card__body'}>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature
+                        </div>
+                    </div>
+                    <div className={'card__footer'}>
+                        <div className={'card__footer__front'}>
+                            <div>Sep 26, 2021</div>
+                            <div style={{margin: '0px 8px 0px 15px', alignItems: 'center'}}><img
+                                src={'/images/dot.svg'}/></div>
+                            <div>1:41 PM</div>
+                        </div>
+                        <div className={'component_btn'}>Xem thêm <img src={'/images/right-arrow.svg'}/></div>
+                    </div>
+                </div>
+                <div className={'card__component'}>
+                    <div><img src={'images/card.png'} className={'card__img'}/></div>
+                    <div>
+                        <div className={'card__header'}>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </div>
+                        <div className={'card__body'}>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature
+                        </div>
+                    </div>
+                    <div className={'card__footer'}>
+                        <div className={'card__footer__front'}>
+                            <div>Sep 26, 2021</div>
+                            <div style={{margin: '0px 8px 0px 15px', alignItems: 'center'}}><img
+                                src={'/images/dot.svg'}/></div>
+                            <div>1:41 PM</div>
+                        </div>
+                        <div className={'component_btn'}>Xem thêm <img src={'/images/right-arrow.svg'}/></div>
+                    </div>
+                </div>
+                <div className={'card__component'}>
+                    <div><img src={'images/card.png'} className={'card__img'}/></div>
+                    <div>
+                        <div className={'card__header'}>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </div>
+                        <div className={'card__body'}>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature
+                        </div>
+                    </div>
+                    <div className={'card__footer'}>
+                        <div className={'card__footer__front'}>
+                            <div>Sep 26, 2021</div>
+                            <div style={{margin: '0px 8px 0px 15px', alignItems: 'center'}}><img
+                                src={'/images/dot.svg'}/></div>
+                            <div>1:41 PM</div>
+                        </div>
+                        <div className={'component_btn'}>Xem thêm <img src={'/images/right-arrow.svg'}/></div>
+                    </div>
+                </div>
+                <div className={'card__component'}>
+                    <div><img src={'images/card.png'} className={'card__img'}/></div>
+                    <div>
+                        <div className={'card__header'}>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </div>
+                        <div className={'card__body'}>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature
+                        </div>
+                    </div>
+                    <div className={'card__footer'}>
+                        <div className={'card__footer__front'}>
+                            <div>Sep 26, 2021</div>
+                            <div style={{margin: '0px 8px 0px 15px', alignItems: 'center'}}><img
+                                src={'/images/dot.svg'}/></div>
+                            <div>1:41 PM</div>
+                        </div>
+                        <div className={'component_btn'}>Xem thêm <img src={'/images/right-arrow.svg'}/></div>
+                    </div>
+                </div>
+                <div className={'card__component'}>
+                    <div><img src={'images/card.png'} className={'card__img'}/></div>
+                    <div>
+                        <div className={'card__header'}>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </div>
+                        <div className={'card__body'}>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature
+                        </div>
+                    </div>
+                    <div className={'card__footer'}>
+                        <div className={'card__footer__front'}>
+                            <div>Sep 26, 2021</div>
+                            <div style={{margin: '0px 8px 0px 15px', alignItems: 'center'}}><img
+                                src={'/images/dot.svg'}/></div>
+                            <div>1:41 PM</div>
+                        </div>
+                        <div className={'component_btn'}>Xem thêm <img src={'/images/right-arrow.svg'}/></div>
+                    </div>
+                </div>
+                <div className={'card__component'}>
+                    <div><img src={'images/card.png'} className={'card__img'}/></div>
+                    <div>
+                        <div className={'card__header'}>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </div>
+                        <div className={'card__body'}>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature
+                        </div>
+                    </div>
+                    <div className={'card__footer'}>
+                        <div className={'card__footer__front'}>
+                            <div>Sep 26, 2021</div>
+                            <div style={{margin: '0px 8px 0px 15px', alignItems: 'center'}}><img
+                                src={'/images/dot.svg'}/></div>
+                            <div>1:41 PM</div>
+                        </div>
+                        <div className={'component_btn'}>Xem thêm <img src={'/images/right-arrow.svg'}/></div>
+                    </div>
+                </div>
+                <div className={'card__component'}>
+                    <div><img src={'images/card.png'} className={'card__img'}/></div>
+                    <div>
+                        <div className={'card__header'}>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </div>
+                        <div className={'card__body'}>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature
+                        </div>
+                    </div>
+                    <div className={'card__footer'}>
+                        <div className={'card__footer__front'}>
+                            <div>Sep 26, 2021</div>
+                            <div style={{margin: '0px 8px 0px 15px', alignItems: 'center'}}><img
+                                src={'/images/dot.svg'}/></div>
+                            <div>1:41 PM</div>
+                        </div>
+                        <div className={'component_btn'}>Xem thêm <img src={'/images/right-arrow.svg'}/></div>
+                    </div>
+                </div>
+                <div className={'card__component'}>
+                    <div><img src={'images/card.png'} className={'card__img'}/></div>
+                    <div>
+                        <div className={'card__header'}>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </div>
+                        <div className={'card__body'}>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature
+                        </div>
+                    </div>
+                    <div className={'card__footer'}>
+                        <div className={'card__footer__front'}>
+                            <div>Sep 26, 2021</div>
+                            <div style={{margin: '0px 8px 0px 15px', alignItems: 'center'}}><img
+                                src={'/images/dot.svg'}/></div>
+                            <div>1:41 PM</div>
+                        </div>
+                        <div className={'component_btn'}>Xem thêm <img src={'/images/right-arrow.svg'}/></div>
+                    </div>
+                </div>
+                <div className={'card__component'}>
+                    <div><img src={'images/card.png'} className={'card__img'}/></div>
+                    <div>
+                        <div className={'card__header'}>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </div>
+                        <div className={'card__body'}>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature
+                        </div>
+                    </div>
+                    <div className={'card__footer'}>
+                        <div className={'card__footer__front'}>
+                            <div>Sep 26, 2021</div>
+                            <div style={{margin: '0px 8px 0px 15px', alignItems: 'center'}}><img
+                                src={'/images/dot.svg'}/></div>
+                            <div>1:41 PM</div>
+                        </div>
+                        <div className={'component_btn'}>Xem thêm <img src={'/images/right-arrow.svg'}/></div>
+                    </div>
+                </div>
                 <div className={'card__component'}>
                     <div><img src={'images/card.png'} className={'card__img'}/></div>
                     <div>

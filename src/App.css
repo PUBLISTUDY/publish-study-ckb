@@ -4,8 +4,6 @@
 }
 
 body {
-
-    font-family: Montserrat, serif;
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
@@ -21,6 +19,7 @@ body {
 }
 
 .main__nav {
+    min-width: 1300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +61,8 @@ body {
 
 /*---*/
 .main__banner {
-    background: #CEE3F4;
+    background: #CEE3F4 url("../public/images/earth.png") 70% 0 no-repeat;
+    min-width: 700px;
     height: 243px;
     flex-shrink: 0;
     display: flex;
@@ -71,7 +71,7 @@ body {
 }
 .main__text {
     color: #F7941D;
-    font-family: Montserrat, serif;
+    
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -104,8 +104,8 @@ body {
 
 .card__component {
     margin: 12px;
-    width: 300px;
-    min-width: 300px;
+    width: 308px;
+    min-width: 308px;
     height: 357px;
     align-items: center;
     display: flex;
@@ -120,7 +120,7 @@ body {
 
 .card__header {
     color: #12416B;
-    font-family: Montserrat, serif;
+    
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -131,7 +131,7 @@ body {
 
 .card__body {
     color: #000;
-    font-family: Montserrat;
+    
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
@@ -150,7 +150,7 @@ body {
 
 .card__footer__front {
     color: #707070;
-    font-family: Montserrat;
+    
     font-size: 7px;
     font-style: normal;
     font-weight: 400;
@@ -165,7 +165,7 @@ body {
     background: #E2E2E2;width: 71px;
     flex-shrink: 0;
     color: #575757;
-    font-family: Montserrat;
+    
     font-size: 8px;
     font-style: normal;
     font-weight: 500;
@@ -188,7 +188,7 @@ body {
 
 .footer__body {
     color: #FFF;
-    font-family: Montserrat, serif;
+    
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -201,7 +201,7 @@ body {
 
 .footer__header {
     color: #F5911E;
-    font-family: Montserrat, serif;
+    
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -217,7 +217,7 @@ body {
     margin: 8px;
     color: #12416B;
     text-align: center;
-    font-family: Montserrat;
+    
     font-size: 10px;
     font-style: normal;
     font-weight: 800;
@@ -228,8 +228,8 @@ body {
     flex-shrink: 0;
 
 }
-@media (max-width: 1030px) {
-    .main__logo {
+@media (max-width: 1130px) {
+    .main__logo, .main__logo__btn {
         display: none;
     }
 
